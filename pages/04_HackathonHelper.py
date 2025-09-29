@@ -47,7 +47,7 @@ st.markdown("""
 
 st.subheader("📦 Starter Resources")
 st.markdown("""
-- [Streamlit Component Guide](https://docs.streamlit.io) 
+- [Quantum Age Begins - Potentials and Challanges](https://youtu.be/lBlfrN_nCmQ) 
 - [Your thoughts create Reality](https://youtu.be/19-QUNqsGJQ)  
 - [How Actully Reflection works at Quantum Level](https://youtu.be/0u7m7YjnfJw)  
 - [5 Facts about Quantum Thought](https://youtu.be/DUA0VqfSsf8)
