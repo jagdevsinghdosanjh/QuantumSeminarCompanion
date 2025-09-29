@@ -68,5 +68,76 @@
     "options": ["It uses passwords", "It’s encrypted", "It detects interference", "It’s invisible"],
     "answer": [2],
     "explanation": "Quantum communication detects any interference due to changes in quantum states."
+  },
+
+  {
+    "type": "singleSelect",
+    "question": "What does quantum decoherence describe?",
+    "options": ["Energy loss", "Loss of quantum behavior", "Particle collision", "Wave amplification"],
+    "answer": [1],
+    "explanation": "Quantum decoherence describes the loss of quantum behavior due to interaction with the environment."
+  },
+  {
+    "type": "singleSelect",
+    "question": "Which visual model is used to represent a qubit’s state?",
+    "options": ["Venn diagram", "Bloch sphere", "Bar chart", "Pie chart"],
+    "answer": [1],
+    "explanation": "The Bloch sphere is a geometric representation of a qubit’s quantum state."
+  },
+  {
+    "type": "singleSelect",
+    "question": "Quantum tunneling allows particles to:",
+    "options": ["Change color", "Pass through barriers", "Duplicate themselves", "Become invisible"],
+    "answer": [1],
+    "explanation": "Quantum tunneling allows particles to pass through barriers they classically shouldn’t."
+  },
+  {
+    "type": "singleSelect",
+    "question": "Which quantum concept is most related to probability amplitudes?",
+    "options": ["Superposition", "Gravity", "Magnetism", "Relativity"],
+    "answer": [0],
+    "explanation": "Superposition involves probability amplitudes that determine the likelihood of outcomes."
+  },
+  {
+    "type": "singleSelect",
+    "question": "Which particle is often used in quantum experiments due to its spin?",
+    "options": ["Photon", "Electron", "Neutron", "Proton"],
+    "answer": [1],
+    "explanation": "Electrons are commonly used in quantum experiments because of their spin properties."
+  },
+  {
+    "type": "singleSelect",
+    "question": "Quantum teleportation transfers:",
+    "options": ["Matter", "Energy", "Information", "Light"],
+    "answer": [2],
+    "explanation": "Quantum teleportation transfers quantum information between particles using entanglement."
+  },
+  {
+    "type": "singleSelect",
+    "question": "Which quantum principle challenges the idea of local realism?",
+    "options": ["Uncertainty", "Decoherence", "Entanglement", "Tunneling"],
+    "answer": [2],
+    "explanation": "Entanglement challenges local realism by linking particles instantaneously across space."
+  },
+  {
+    "type": "singleSelect",
+    "question": "Quantum algorithms like Shor’s are used for:",
+    "options": ["Sorting data", "Breaking encryption", "Image processing", "Weather prediction"],
+    "answer": [1],
+    "explanation": "Shor’s algorithm is used for factoring large numbers, which can break classical encryption."
+  },
+  {
+    "type": "singleSelect",
+    "question": "Which quantum effect is used in atomic clocks?",
+    "options": ["Entanglement", "Superposition", "Quantum tunneling", "Quantum transitions"],
+    "answer": [3],
+    "explanation": "Atomic clocks use quantum transitions between energy levels for precise timekeeping."
+  },
+  {
+    "type": "singleSelect",
+    "question": "Which field benefits most from quantum machine learning?",
+    "options": ["Fashion", "Healthcare", "Agriculture", "Sports"],
+    "answer": [1],
+    "explanation": "Quantum machine learning can accelerate drug discovery and diagnostics in healthcare."
   }
 ]
