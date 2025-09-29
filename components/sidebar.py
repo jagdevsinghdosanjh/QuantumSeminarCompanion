@@ -10,7 +10,7 @@ def render_sidebar():
     st.sidebar.page_link("pages/03_QuantumQuiz.py", label="📚 Quantum Quiz")
     st.sidebar.page_link("pages/04_HackathonHelper.py", label="🚀 Hackathon Helper")
     st.sidebar.page_link("pages/05_QuantumWisdomWall.py", label="🧙 Quantum Wisdom Wall")
-
+    st.divider("--")
     st.sidebar.markdown("---")
     st.sidebar.info("Built for students of Classes VIII–X\nInspired by the Quantum Age Begins Seminar")
 
