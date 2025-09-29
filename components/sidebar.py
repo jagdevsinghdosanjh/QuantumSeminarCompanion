@@ -22,14 +22,14 @@ def render_sidebar():
 
     # Seminar Info
     st.sidebar.markdown("""
-    <div style='font-size:0.85rem; color:#666; text-align:center;'>
+    <div style='font-size:0.85rem; color:#00C2CB; text-align:center;'>
     Built for students of Classes VIII–X<br>
     Inspired by the <b>Quantum Age Begins</b> Seminar
     </div>
     """, unsafe_allow_html=True)
 
     # 🎓 Student Tools
-    st.sidebar.markdown("<h4 style='color:#FFD700;'>🎓 Student Tools</h4>", unsafe_allow_html=True)
+    st.sidebar.markdown("<h4 style='color:#00C2CB;'>🎓 Student Tools</h4>", unsafe_allow_html=True)
     st.sidebar.page_link("pages/06_CertificateGenerator.py", label="🎓 Certificate Generator")
     st.sidebar.page_link("pages/07_Leaderboard.py", label="🏆 Leaderboard")
     st.sidebar.page_link("pages/11_PrintableSummary.py", label="🧾 Printable Summary")
@@ -40,7 +40,7 @@ def render_sidebar():
     """, unsafe_allow_html=True)
 
     # 🧑‍🏫 Educator Dashboards
-    st.sidebar.markdown("<h4 style='color:#FF5733;'>🧑‍🏫 Educator Dashboards</h4>", unsafe_allow_html=True)
+    st.sidebar.markdown("<h4 style='color:#00C2CB;'>🧑‍🏫 Educator Dashboards</h4>", unsafe_allow_html=True)
     st.sidebar.page_link("pages/08_ContributorDashboard.py", label="🧑‍🏫 Contributor Dashboard")
     st.sidebar.page_link("pages/09_ChallengeDashboard.py", label="🎮 Mentor Challenge")
     st.sidebar.page_link("pages/10_ChallengeWeek.py", label="📅 Challenge Week")
