@@ -47,6 +47,17 @@ if all(st.session_state.submitted):
     st.markdown("---")
     st.success(f"🎯 Final Score: {st.session_state.score}/15")
 
+if all(st.session_state.submitted):
+    st.markdown("---")
+    st.success(f"🎯 Final Score: {st.session_state.score}/15")
+
+    if st.session_state.score >= 12:
+        st.markdown("### 🏅 You’ve earned a Quantum Certificate!")
+        st.page_link("pages/06_CertificateGenerator.py", label="🎓 Generate Your Certificate")
+    else:
+        st.warning("Keep exploring! Score 12 or more to unlock your certificate.")
+
+
 quantum_footer()
 
 # import streamlit as st
