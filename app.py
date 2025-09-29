@@ -6,6 +6,14 @@ quantum_header()
 
 st.set_page_config(page_title="Quantum Mentor", layout="wide")
 
+st.subheader("📦 Starter Resources")
+st.markdown("""
+- [Quantum Age Begins - Potentials and Challanges](https://youtu.be/lBlfrN_nCmQ) 
+- [Your thoughts create Reality](https://youtu.be/19-QUNqsGJQ)  
+- [How Actully Reflection works at Quantum Level](https://youtu.be/0u7m7YjnfJw)  
+- [5 Facts about Quantum Thought](https://youtu.be/DUA0VqfSsf8)
+""")
+
 # Sidebar
 render_sidebar()
 student_login()
