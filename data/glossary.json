@@ -8,7 +8,7 @@
   "Quantum Tunneling": "A particle's ability to pass through barriers it classically shouldn't cross.",
   "Quantum Wavefunction": "A mathematical description of a quantum system’s state and its probability distribution.",
   "Quantum Gate": "An operation that changes the state of qubits, analogous to logic gates in classical computing.",
-  "Bell's Theorem": "A foundational result showing that no local hidden variables can explain quantum correlations.",
+  "Bells Theorem": "A foundational result showing that no local hidden variables can explain quantum correlations.",
   "No-Cloning Theorem": "A principle stating that unknown quantum states cannot be copied perfectly.",
   "Quantum Supremacy": "The point at which a quantum computer outperforms the best classical counterpart on a specific task.",
   "Quantum Error Correction": "Techniques to protect quantum information from decoherence and noise.",
