@@ -48,9 +48,9 @@ st.markdown("""
 st.subheader("📦 Starter Resources")
 st.markdown("""
 - [Streamlit Component Guide](https://docs.streamlit.io) 
-- [Quantum Glossary](https://example.com/glossary)  
-- [Badge Tracker Template](https://example.com/badge-tracker)  
-- [Science Seminar Rubric](https://example.com/rubric)
+- [Your thoughts create Reality](https://youtu.be/19-QUNqsGJQ)  
+- [How Actully Reflection works at Quantum Level](https://youtu.be/0u7m7YjnfJw)  
+- [5 Facts about Quantum Thought](https://youtu.be/DUA0VqfSsf8)
 """)
 
 st.info("Ready to build? Ask your mentor for a challenge prompt or start prototyping below.")
