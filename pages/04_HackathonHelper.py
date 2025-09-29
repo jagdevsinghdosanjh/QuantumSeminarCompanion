@@ -39,9 +39,9 @@ st.markdown("""
 """)
 st.subheader("📦 Starter Resources")
 st.markdown("""
-- 📘 [Quantum Glossary](05_QuantumGlossary)  
-- 🏅 [Badge Tracker Template](06_BadgeTrackerTemplate)  
-- 🧠 [Science Seminar Rubric](07_ScienceSeminarRubric)  
+- 📘 [Quantum Glossary](05_QuantumGlossary.py)  
+- 🏅 [Badge Tracker](06_BadgeTrackerTemplate.py)  
+- 🧠 [Science Seminar](07_ScienceSeminarRubric.py)  
 - 🔧 [Streamlit Component Guide](https://docs.streamlit.io)
 """)
 
