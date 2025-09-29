@@ -37,21 +37,21 @@ st.markdown("""
 - Document your process clearly—others will learn from your clarity.  
 - Honor originality, teamwork, and curiosity.
 """)
-st.subheader("📦 Starter Resources")
-st.markdown("""
-- 📘 [Quantum Glossary](05_QuantumGlossary.py)  
-- 🏅 [Badge Tracker](06_BadgeTrackerTemplate.py)  
-- 🧠 [Science Seminar](07_ScienceSeminarRubric.py)  
-- 🔧 [Streamlit Component Guide](https://docs.streamlit.io)
-""")
-
 # st.subheader("📦 Starter Resources")
 # st.markdown("""
-# - [Streamlit Component Guide](https://docs.streamlit.io) 
-# - [Quantum Glossary](https://example.com/glossary)  
-# - [Badge Tracker Template](https://example.com/badge-tracker)  
-# - [Science Seminar Rubric](https://example.com/rubric)
+# - 📘 [Quantum Glossary](05_QuantumGlossary.py)  
+# - 🏅 [Badge Tracker](06_BadgeTrackerTemplate.py)  
+# - 🧠 [Science Seminar](07_ScienceSeminarRubric.py)  
+# - 🔧 [Streamlit Component Guide](https://docs.streamlit.io)
 # """)
+
+st.subheader("📦 Starter Resources")
+st.markdown("""
+- [Streamlit Component Guide](https://docs.streamlit.io) 
+- [Quantum Glossary](https://example.com/glossary)  
+- [Badge Tracker Template](https://example.com/badge-tracker)  
+- [Science Seminar Rubric](https://example.com/rubric)
+""")
 
 st.info("Ready to build? Ask your mentor for a challenge prompt or start prototyping below.")
 
