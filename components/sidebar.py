@@ -22,7 +22,7 @@ def render_sidebar():
 
     # Seminar Info
     st.sidebar.markdown("""
-    <div style='font-size:0.85rem; color:#00C2CB; text-align:center;'>
+    <div style='font-size:0.85rem; color:Green; text-align:center;'>
     Built for students of Classes VIII–X<br>
     Inspired by the <b>Quantum Age Begins</b> Seminar
     </div>
