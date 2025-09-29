@@ -1,7 +1,8 @@
 import streamlit as st
 import json
-from components.quantum_card import quantum_mentor_avatar
 import os
+import re
+from components.quantum_card import quantum_mentor_avatar
 from components.header_footer import quantum_header, quantum_footer
 
 quantum_header()
@@ -75,13 +76,15 @@ if glossary:
             st.info("Metaphor not yet available—submit your poetic insight!")
 
         # Optional diagram
-        image_path = f"assets/diagrams/{concept.lower().replace(' ', '_').replace(\"'\", '')}.png"
+        sanitized_name = re.sub(r"[^\w]", "_", concept.lower())
+        image_path = f"assets/diagrams/{sanitized_name}.png"
         if os.path.exists(image_path):
             st.image(image_path, caption=f"{concept} Diagram", use_container_width=True)
         else:
             st.info("Diagram not available for this concept.")
 
 quantum_footer()
+
 
 # import streamlit as st
 # import json
