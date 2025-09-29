@@ -30,7 +30,7 @@ except FileNotFoundError:
         "Quantum Decoherence": "Loss of quantum behavior due to interaction with the environment.",
         "Measurement": "The act of observing a quantum system, collapsing its superposition into a definite state.",
         "Quantum Interference": "The overlapping of quantum states, where probabilities amplify or cancel each other.",
-        "Wavefunction": "A mathematical description of a quantum system’s state and its probability distribution.",
+        "Quantum Wavefunction": "A mathematical description of a quantum system’s state and its probability distribution.",
         "Quantum Gate": "An operation that changes the state of qubits, analogous to logic gates in classical computing.",
         "Bell's Theorem": "A foundational result showing that no local hidden variables can explain quantum correlations.",
         "No-Cloning Theorem": "A principle stating that unknown quantum states cannot be copied perfectly.",

@@ -6,7 +6,7 @@
   "Measurement": "The act of observing a quantum system, collapsing its superposition into a definite state.",
   "Decoherence": "The loss of quantum behavior as a system interacts with its environment.",
   "Quantum Tunneling": "A particle's ability to pass through barriers it classically shouldn't cross.",
-  "Wavefunction": "A mathematical description of a quantum system’s state and its probability distribution.",
+  "Quantum Wavefunction": "A mathematical description of a quantum system’s state and its probability distribution.",
   "Quantum Gate": "An operation that changes the state of qubits, analogous to logic gates in classical computing.",
   "Bell's Theorem": "A foundational result showing that no local hidden variables can explain quantum correlations.",
   "No-Cloning Theorem": "A principle stating that unknown quantum states cannot be copied perfectly.",
