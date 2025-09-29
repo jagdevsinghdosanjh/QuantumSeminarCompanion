@@ -1,0 +1,72 @@
+[
+  {
+    "type": "singleSelect",
+    "question": "What is a qubit?",
+    "options": ["A classical bit", "A quantum bit", "A binary switch", "A particle detector"],
+    "answer": [1],
+    "explanation": "A qubit is a quantum bit that can exist in a superposition of 0 and 1."
+  },
+  {
+    "type": "singleSelect",
+    "question": "Which principle states that observing a quantum system affects its state?",
+    "options": ["Superposition", "Entanglement", "Uncertainty Principle", "Relativity"],
+    "answer": [2],
+    "explanation": "The Uncertainty Principle implies that measurement disturbs the quantum system."
+  },
+  {
+    "type": "singleSelect",
+    "question": "Quantum entanglement links particles across:",
+    "options": ["Short distances", "Time", "Large distances", "Temperature"],
+    "answer": [2],
+    "explanation": "Entangled particles remain connected even across large distances."
+  },
+  {
+    "type": "singleSelect",
+    "question": "Which company is known for building quantum annealing systems?",
+    "options": ["IBM", "Google", "D-Wave", "Intel"],
+    "answer": [2],
+    "explanation": "D-Wave specializes in quantum annealing for optimization problems."
+  },
+  {
+    "type": "singleSelect",
+    "question": "Quantum computing is most useful for:",
+    "options": ["Simple arithmetic", "Web browsing", "Optimization problems", "Word processing"],
+    "answer": [2],
+    "explanation": "Quantum computing excels at solving complex optimization problems."
+  },
+  {
+    "type": "singleSelect",
+    "question": "Superposition allows a particle to be:",
+    "options": ["In one state", "In two states simultaneously", "Invisible", "Charged"],
+    "answer": [1],
+    "explanation": "Superposition means a particle can exist in multiple states at once."
+  },
+  {
+    "type": "singleSelect",
+    "question": "Quantum sensors can help detect:",
+    "options": ["Wi-Fi signals", "Diseases early", "GPS errors", "Sound waves"],
+    "answer": [1],
+    "explanation": "Quantum sensors can detect diseases at molecular levels with high precision."
+  },
+  {
+    "type": "singleSelect",
+    "question": "Which quantum concept defies classical logic?",
+    "options": ["Gravity", "Magnetism", "Entanglement", "Electricity"],
+    "answer": [2],
+    "explanation": "Entanglement defies classical logic by linking particles instantaneously."
+  },
+  {
+    "type": "singleSelect",
+    "question": "Quantum computers use which unit of information?",
+    "options": ["Byte", "Bit", "Qubit", "Pixel"],
+    "answer": [2],
+    "explanation": "Quantum computers use qubits instead of classical bits."
+  },
+  {
+    "type": "singleSelect",
+    "question": "Quantum communication is considered secure because:",
+    "options": ["It uses passwords", "It’s encrypted", "It detects interference", "It’s invisible"],
+    "answer": [2],
+    "explanation": "Quantum communication detects any interference due to changes in quantum states."
+  }
+]
