@@ -62,7 +62,7 @@ if glossary:
             "Quantum Interference": "🎭 A chorus of possibilities, some harmonizing, others silenced.",
             "Wavefunction": "🌊 A shimmering map of maybes, flowing through probability space.",
             "Quantum Gate": "🧮 A twist in the quantum dance, reshaping the rhythm of qubits.",
-            "Bell's Theorem": "🔍 A cosmic detective story—no local clues explain the spooky sync.",
+            "Bells Theorem": "🔍 A cosmic detective story—no local clues explain the spooky sync.",
             "No-Cloning Theorem": "📵 A quantum selfie that can’t be duplicated.",
             "Quantum Supremacy": "🚀 A leap beyond classical limits—where quantum speed reigns.",
             "Quantum Error Correction": "🛡️ A spell of protection against the noise of reality.",
