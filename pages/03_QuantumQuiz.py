@@ -13,7 +13,7 @@ if "questions" not in st.session_state:
     with open("data/quantum_questions.json", "r") as f:
         questions = json.load(f)
     shuffle(questions)
-    st.session_state.questions = questions[:5]
+    st.session_state.questions = questions[:15]
     st.session_state.answers = [None] * 5
     st.session_state.submitted = [False] * 5
     st.session_state.score = 0
