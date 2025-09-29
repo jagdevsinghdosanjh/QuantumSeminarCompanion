@@ -1,5 +1,17 @@
 {
   "Superposition": "A quantum system can exist in multiple states simultaneously.",
   "Entanglement": "Two particles remain connected, even when separated by large distances.",
-  "Qubit": "The basic unit of quantum information, capable of being 0 and 1 at once."
+  "Qubit": "The basic unit of quantum information, capable of being 0 and 1 at once.",
+  "Quantum Interference": "The overlapping of quantum states, where probabilities amplify or cancel each other.",
+  "Measurement": "The act of observing a quantum system, collapsing its superposition into a definite state.",
+  "Decoherence": "The loss of quantum behavior as a system interacts with its environment.",
+  "Quantum Tunneling": "A particle's ability to pass through barriers it classically shouldn't cross.",
+  "Wavefunction": "A mathematical description of a quantum system’s state and its probability distribution.",
+  "Quantum Gate": "An operation that changes the state of qubits, analogous to logic gates in classical computing.",
+  "Bell's Theorem": "A foundational result showing that no local hidden variables can explain quantum correlations.",
+  "No-Cloning Theorem": "A principle stating that unknown quantum states cannot be copied perfectly.",
+  "Quantum Supremacy": "The point at which a quantum computer outperforms the best classical counterpart on a specific task.",
+  "Quantum Error Correction": "Techniques to protect quantum information from decoherence and noise.",
+  "Quantum Algorithm": "A set of quantum operations designed to solve problems faster than classical algorithms.",
+  "Quantum Cryptography": "Securing communication using quantum principles, making eavesdropping detectable."
 }
