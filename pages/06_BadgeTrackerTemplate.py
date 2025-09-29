@@ -31,7 +31,9 @@ emoji_df = df.copy()
 for col in df.columns[1:]:
     emoji_df[col] = df[col].apply(lambda x: "✅" if x else "❌")
 
-st.dataframe(emoji_df, use_container_width=True)
+st.dataframe(emoji_df, width='stretch')
+
+# st.dataframe(emoji_df, use_container_width=True)
 
 st.markdown("---")
 st.info("Educators can export this table to Excel or Google Sheets for real-time tracking and badge assignment.")

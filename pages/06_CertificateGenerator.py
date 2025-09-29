@@ -8,7 +8,7 @@ st.title("🎓 Quantum Mentor Certificate")
 st.markdown("Complete all modules and earn your personalized certificate!")
 
 name = st.text_input("Enter your full name")
-score = st.slider("Your Quiz Score (out of 5)", 0, 5, 3)
+score = st.slider("Your Quiz Score (out of 15)", 0, 15, 3)
 modules_completed = st.slider("Modules Completed", 0, 5, 3)
 
 if name and st.button("Generate Certificate"):
@@ -22,7 +22,7 @@ if name and st.button("Generate Certificate"):
     st.markdown(f"""
     🧾 **Certificate of Completion**  
     This certifies that **{name}** has successfully completed the Quantum Mentor program  
-    with a score of {score}/5 and full engagement across {modules_completed} modules.  
+    with a score of {score}/15 and full engagement across {modules_completed} modules.  
     Keep exploring, keep questioning, and keep collapsing possibilities into brilliance.
     """)
 
