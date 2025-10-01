@@ -88,7 +88,7 @@
     "type": "singleSelect",
     "question": "Quantum tunneling allows particles to:",
     "options": ["Change color", "Pass through barriers", "Duplicate themselves", "Become invisible"],
-    "answer": [1],
+    "answer": [2],
     "explanation": "Quantum tunneling allows particles to pass through barriers they classically shouldn’t."
   },
   {
