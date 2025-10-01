@@ -5,7 +5,7 @@ import os
 def quantum_header():
     st.markdown("""
     <div style='text-align: center; padding: 1rem 0;'>
-        <h1 style='color: #6C63FF;'>🧠 Quantum Mentor</h1>
+        <h1 style='color:blue;'>🧠 Quantum Mentor</h1>
         <p style='font-size: 1.1rem; color: #444;'>Empowering students through poetic science, modular logic, and quantum curiosity.</p>
         <hr style='border: none; height: 1px; background-color: #eee;'/>
     </div>
@@ -22,7 +22,7 @@ def quantum_footer(module_name="Quantum Core"):
     poetic_line = manifest.get(module_name, {}).get("poetic_line", "Entangle your thoughts, collapse your doubts.")
 
     footer_html = f"""
-        <hr style='border: none; height: 2px; background-color:pink;'/>
+        <hr style='border: none; height: 2px; background-color:blue;'/>
         <div style='text-align: center; font-size: 0.9rem; color:green; padding-top: 1rem;'>
             <strong>{module_name}</strong><br/>
             <em>{poetic_line}</em><br/>
