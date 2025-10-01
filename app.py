@@ -5,6 +5,8 @@ from components.header_footer import quantum_header, quantum_footer
 quantum_header()
 
 st.set_page_config(page_title="Quantum Mentor", layout="wide")
+st.markdown("[🌱 Launch QuantumSeed](https://quantumseed.streamlit.app/)")
+
 
 st.subheader("📦 Starter- Video Resources")
 st.markdown("""
