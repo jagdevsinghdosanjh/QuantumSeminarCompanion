@@ -24,7 +24,7 @@ if leaderboard:
     total_students = len(leaderboard)
     avg_score = sum([entry.get("score", 0) for entry in leaderboard]) / total_students
     st.write(f"Total Students: {total_students}")
-    st.write(f"Average Quiz Score: {avg_score:.2f}/5")
+    st.write(f"Average Quiz Score: {avg_score:.2f}/15")
     st.markdown("---")
 
     st.subheader("🎓 Student Progress")
@@ -32,7 +32,7 @@ if leaderboard:
         name = entry.get("name", "Unnamed")
         score = entry.get("score", 0)
         badges = entry.get("badges", [])
-        st.markdown(f"**{name}** – Score: {score}/5 – Badges: {', '.join(badges)}")
+        st.markdown(f"**{name}** – Score: {score}/15 – Badges: {', '.join(badges)}")
         st.markdown("---")
 else:
     st.info("No student progress data available yet.")

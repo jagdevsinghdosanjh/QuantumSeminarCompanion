@@ -9,7 +9,7 @@ st.markdown("Generate a printable summary of your Quantum Mentor journey.")
 if "student_name" in st.session_state:
     name = st.session_state["student_name"]
     st.subheader(f"Student: {name}")
-    quiz_score = st.slider("Quiz Score", 0, 5, 4)
+    quiz_score = st.slider("Quiz Score", 0, 15, 4)
     modules = st.multiselect("Modules Completed", [
         "Quantum Quiz", "Wisdom Wall", "Logic Simulator", "Hackathon Helper", "Certificate"
     ])
@@ -18,7 +18,7 @@ if "student_name" in st.session_state:
     st.markdown("---")
     st.markdown(f"""
     ### Quantum Mentor Summary for {name}
-    - Quiz Score: {quiz_score}/5
+    - Quiz Score: {quiz_score}/15
     - Modules Completed: {', '.join(modules)}
     - Final Badge: 🧙 {final_badge}
     - Date: {st.date_input("Date", value=None)}
