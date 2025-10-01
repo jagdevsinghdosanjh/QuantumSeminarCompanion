@@ -6,7 +6,7 @@ quantum_header()
 
 st.set_page_config(page_title="Quantum Mentor", layout="wide")
 
-st.subheader("📦 Starter Resources")
+st.subheader("📦 Starter- Video Resources")
 st.markdown("""
 - [Quantum Age Begins - Potentials and Challanges](https://youtu.be/lBlfrN_nCmQ) 
 - [For Students By a Student](https://youtu.be/GVcHMowQ7BM)
