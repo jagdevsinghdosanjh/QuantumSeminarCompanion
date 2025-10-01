@@ -7,7 +7,7 @@ def quantum_header():
     <div style='text-align: center; padding: 1rem 0;'>
         <h1 style='color:blue;'>🧠 Quantum Mentor</h1>
         <p style='font-size: 1.1rem; color: #444;'>Empowering students through poetic science, modular logic, and quantum curiosity.</p>
-        <hr style='border: none; height: 1px; background-color: #eee;'/>
+        <hr style='border: none; height: 1px; background-color:blue;'/>
     </div>
     """, unsafe_allow_html=True)
 
