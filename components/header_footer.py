@@ -22,7 +22,7 @@ def quantum_footer(module_name="Quantum Core"):
     poetic_line = manifest.get(module_name, {}).get("poetic_line", "Entangle your thoughts, collapse your doubts.")
 
     footer_html = f"""
-        <hr style='border: none; height: 2px; background-color: #eee;'/>
+        <hr style='border: none; height: 2px; background-color: green;'/>
         <div style='text-align: center; font-size: 0.9rem; color: #FFD700; padding-top: 1rem;'>
             <strong>{module_name}</strong><br/>
             <em>{poetic_line}</em><br/>
