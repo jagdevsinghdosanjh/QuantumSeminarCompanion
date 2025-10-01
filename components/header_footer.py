@@ -1,5 +1,6 @@
 import streamlit as st
 import json
+import os
 
 def quantum_header():
     st.markdown("""
@@ -9,8 +10,6 @@ def quantum_header():
         <hr style='border: none; height: 1px; background-color: #eee;'/>
     </div>
     """, unsafe_allow_html=True)
-
-import os
 
 def quantum_footer(module_name="Quantum Core"):
     manifest_path = os.path.join(os.path.dirname(__file__), "footer_manifest.json")
