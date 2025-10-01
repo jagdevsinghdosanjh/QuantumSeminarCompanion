@@ -11,7 +11,7 @@ def quantum_header():
 
 def quantum_footer():
     st.markdown("""
-        <hr style='border: none; height: 2px; background-color: #eee;'/>
+        <hr style='border: none; height: 2px; background-color: red;'/>
         <div style='text-align: center; font-size: 0.9rem; border-color:black; color: yellow; padding-top: 1rem;'>
             Quantum insights powered by poetic logic ⚛️✨
         </div>
