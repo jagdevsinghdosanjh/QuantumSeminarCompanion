@@ -26,7 +26,7 @@ def quantum_footer(module_name="Quantum Core"):
         <div style='text-align: center; font-size: 0.9rem; color: #FFD700; padding-top: 1rem;'>
             <strong>{module_name}</strong><br/>
             <em>{poetic_line}</em><br/>
-            <span style='font-size: 0.8rem; color: #aaa;'>Powered by modular logic and poetic insight ⚛️</span>
+            <span style='font-size: 0.8rem; color: #555;'>Powered by modular logic and poetic insight ⚛️</span>
         </div>
     """
     st.markdown(footer_html, unsafe_allow_html=True)
