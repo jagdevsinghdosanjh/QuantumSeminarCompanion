@@ -13,6 +13,7 @@ st.markdown("""
 - [Your thoughts create Reality](https://youtu.be/19-QUNqsGJQ)  
 - [How Actully Reflection works at Quantum Level](https://youtu.be/0u7m7YjnfJw)  
 - [5 Facts about Quantum Thought](https://youtu.be/DUA0VqfSsf8)
+- [Quantum Computer in Bengaluru](https://youtu.be/oOLwKOQP8VY)
 """)
 
 # Sidebar
