@@ -45,7 +45,7 @@ st.markdown("""
 # - 🔧 [Streamlit Component Guide](https://docs.streamlit.io)
 # """)
 
-st.subheader("📦 Starter Resources")
+st.subheader("📦 Starter -Video Resources")
 st.markdown("""
 - [Quantum Age Begins - Potentials and Challanges](https://youtu.be/lBlfrN_nCmQ) 
 - [Your thoughts create Reality](https://youtu.be/19-QUNqsGJQ)  
